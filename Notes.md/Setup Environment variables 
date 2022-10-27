@@ -1,0 +1,12 @@
+Setup Environment variables
+NAME=k8s-cluster-from-ground-up
+VPC_ID=vpc-064bf8320ef4a7e82
+SUBNET_ID=subnet-08298c4661797e1c1
+INTERNET_GATEWAY_ID=igw-0cf4efe547220d23b
+AWS_REGION=eu-west-2
+ROUTE_TABLES_ID=rtb-07791ef37fcfce041
+SECURITY_GROUP_ID=sg-0a5df82294e325ed9
+LOAD_BALANCER_ARN=arn:aws:elasticloadbalancing:eu-west-2:348254368030:loadbalancer/net/k8s-cluster-from-ground-up/f294562c9f4a73e9
+TARGET_GROUP_ID=arn:aws:elasticloadbalancing:eu-west-2:348254368030:targetgroup/k8s-cluster-from-ground-up/3b43211abc086ef1
+KUBENERTES_PUBLIC_ADDRESS=k8s-cluster-from-ground-up-f294562c9f4a73e9.elb.eu-west-2.amazonaws.com
+IMAGE_ID=ami-
